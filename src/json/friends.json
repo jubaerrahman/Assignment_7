@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "email": "emma.wilson@mail.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Former colleague, great mentor",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/150?img=2",
+    "email": "james.wright@mail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["gym"],
+    "bio": "Gym partner, very consistent",
+    "goal": 15,
+    "next_due_date": "2026-03-10"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "email": "lisa@mail.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": ["college"],
+    "bio": "University friend",
+    "goal": 21,
+    "next_due_date": "2026-03-05"
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/150?img=4",
+    "email": "david@mail.com",
+    "days_since_contact": 70,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Ex-team member",
+    "goal": 30,
+    "next_due_date": "2026-02-15"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Johnson",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "sarah@mail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "Cousin, very close",
+    "goal": 10,
+    "next_due_date": "2026-03-12"
+  },
+  {
+    "id": 6,
+    "name": "Michael Brown",
+    "picture": "https://i.pravatar.cc/150?img=6",
+    "email": "michael@mail.com",
+    "days_since_contact": 28,
+    "status": "almost due",
+    "tags": ["school"],
+    "bio": "School friend",
+    "goal": 30,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Martinez",
+    "picture": "https://i.pravatar.cc/150?img=7",
+    "email": "olivia@mail.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["travel"],
+    "bio": "Travel buddy",
+    "goal": 20,
+    "next_due_date": "2026-03-08"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Lee",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "email": "daniel@mail.com",
+    "days_since_contact": 55,
+    "status": "overdue",
+    "tags": ["business"],
+    "bio": "Startup partner",
+    "goal": 25,
+    "next_due_date": "2026-02-20"
+  },
+  {
+    "id": 9,
+    "name": "Sophia Taylor",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "email": "sophia@mail.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["friend"],
+    "bio": "Close friend from college",
+    "goal": 21,
+    "next_due_date": "2026-03-06"
+  },
+  {
+    "id": 10,
+    "name": "Chris Evans",
+    "picture": "https://i.pravatar.cc/150?img=10",
+    "email": "chris@mail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["gaming"],
+    "bio": "Gaming partner",
+    "goal": 10,
+    "next_due_date": "2026-03-15"
+  }
+]
