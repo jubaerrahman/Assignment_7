@@ -1,15 +1,16 @@
-import { useState } from 'react'
+import { Outlet } from "react-router-dom"
+import Navbar from "./components/Navbar"
 
-
-
-function App() {
-
-
+export default function App() {
   return (
-    <>
-      
-    </>
+    <div>
+
+      <Navbar />
+
+      <div className="max-w-6xl mx-auto px-4 mt-6">
+        <Outlet />
+      </div>
+
+    </div>
   )
 }
-
-export default App
