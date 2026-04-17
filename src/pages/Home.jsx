@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div className="text-center">
+    <div className="text-center px-4 sm:px-6">
 
-      {/* Banner */}
-      <h1 className="text-4xl font-bold mt-10">
+    
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-10">
         Friends to keep close in your life
       </h1>
 
@@ -18,8 +18,8 @@ export default function Home() {
         + Add Friend
       </button>
 
-      {/* Summary Cards */}
-      <div className="grid md:grid-cols-4 gap-4 mt-10">
+    
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-10">
 
         <div className="card bg-base-100 shadow p-4">
           <h2 className="text-xl font-bold">10</h2>
@@ -43,12 +43,12 @@ export default function Home() {
 
       </div>
 
-      {/* Friends Grid */}
+      
       <h2 className="text-2xl font-bold mt-12">
         Your Friends
       </h2>
 
-      <div className="grid md:grid-cols-4 gap-6 mt-6 px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-6 px-4">
 
         {
           data.map(friend => (
@@ -58,7 +58,7 @@ export default function Home() {
 
                 <img
                   src={friend.picture}
-                  className="w-16 h-16 rounded-full mx-auto"
+                  className="w-14 h-14 sm:w-16 sm:h-16 rounded-full mx-auto"
                 />
 
                 <h2 className="text-center font-bold mt-2">

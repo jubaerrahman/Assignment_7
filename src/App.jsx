@@ -1,16 +1,14 @@
 import { Outlet } from "react-router-dom"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+
 
 export default function App() {
   return (
     <div>
-
       <Navbar />
-
-      <div className="max-w-6xl mx-auto px-4 mt-6">
-        <Outlet />
-      </div>
-
+      <Outlet />
+      <Footer/>
     </div>
   )
 }
