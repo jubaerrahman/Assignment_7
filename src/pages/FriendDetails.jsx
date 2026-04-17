@@ -47,13 +47,13 @@ return (
 
 <ToastContainer />
 
-<div className="grid grid-cols-1 md:grid-cols-[260px_1fr] gap-6">
+<div className="grid grid-cols-1 md:grid-cols-[240px_1fr] lg:grid-cols-[260px_1fr] gap-6">
 
 <div className="card bg-base-100 shadow p-5 text-center h-fit">
 
-<img src={friend.picture} className="w-20 h-20 rounded-full mx-auto" />
+<img src={friend.picture} className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mx-auto" />
 
-<h2 className="text-lg font-bold mt-2">{friend.name}</h2>
+<h2 className="text-base sm:text-lg font-bold mt-2">{friend.name}</h2>
 
 <span className={`badge mt-2 ${color}`}>{friend.status}</span>
 
